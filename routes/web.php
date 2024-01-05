@@ -17,3 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/login', [GeneralController::class, 'login'])->name('general.login');
+Route::get('/register', [GeneralController::class, 'register'])->name('general.register');

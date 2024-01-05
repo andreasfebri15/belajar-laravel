@@ -12,4 +12,11 @@ class GeneralController extends Controller
         $data['title'] = 'Login';
         return view('general.login', $data);
     }
+
+    public function register()
+    {
+        $data = [];
+        $data['title'] = 'Register';
+        return view('general.register', $data);
+    }
 }
