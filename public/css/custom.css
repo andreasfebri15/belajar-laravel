@@ -1,0 +1,51 @@
+.f7 {
+    background-color: #f7f7f7;
+}
+
+.text-vertical-center {
+    vertical-align: middle !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.rata {
+    text-align: justify !important;
+    text-justify: inter-word !important;
+}
+@media (max-width: 767px) {
+    .menu-clean {
+        position: static !important;
+        float: none !important;
+        width: auto !important;
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+        background-color: transparent !important;
+        border: 0 !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+    }
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+}
+
+.btn-success {
+    background-color: #65c728;
+}
+/* .sidebar,
+.sidebar-content,
+.sidebar-1 {
+    background-color: #6900f2 !important;
+} */
